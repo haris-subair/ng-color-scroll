@@ -1,0 +1,22 @@
+.color-card {
+    height: 100vh;
+    position: relative;
+    .color-label {
+        margin: auto;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        font-weight: 600;
+        text-align: center;
+        span {
+            padding: 15px;
+            border: 1px solid #0000001c;
+            background: #ffffff30;
+        }
+    }
+}
+
+.main  {
+    height: 100vh;
+    overflow: scroll;
+}

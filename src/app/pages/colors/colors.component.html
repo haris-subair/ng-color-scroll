@@ -1,0 +1,23 @@
+
+
+<div class="main" infiniteScroll
+[infiniteScrollDistance]="1"
+[infiniteScrollThrottle]="10"
+[scrollWindow]="false"
+(scrolled)="onScroll()"
+>
+
+<div [style.background]="color.color" class="color-card" *ngFor="let color of colorData; let i = index">
+  
+  <div class="color-label">
+    
+            <span>
+              {{color.pantone_value}}
+            </span>
+
+  </div>
+  
+  </div>
+
+</div>
+

@@ -1,4 +1,6 @@
-# ColorBgApp
+# Colors-Scroll
+
+A simple Angular project which has routing and infinite scroll added.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
